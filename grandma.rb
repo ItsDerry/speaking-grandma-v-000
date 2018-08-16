@@ -1,9 +1,6 @@
-require 'pry'
-
 def speak_to_grandma(phrase)
-  if phrase=="I LOVE YOU GRANDMA!"
-    returns "I LOVE YOU TOO PUMPKIN!"
-    binding.pry
+  if speak_to_grandma(phrase) == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
   elsif phrase.upcase
     puts "NO, NOT SINCE 1938!"
   else
